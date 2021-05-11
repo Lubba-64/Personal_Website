@@ -49,4 +49,5 @@
     height: max-content;
     padding: 10px;
     background-color: var(--GreyMid);
+    border-radius: 10px;
 }
