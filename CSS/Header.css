@@ -1,0 +1,33 @@
+:root{
+    --Header-Inner-Content-Size:25px;
+}
+
+.MainPageHeader{
+    height: 50px;
+    background-color: var(--Orange);
+    padding: 10px;
+}
+.HeaderButton{
+    margin: auto;
+    width: max-content;
+    height: calc(var(--Header-Inner-Content-Size)*2);
+    padding: 10px;
+    border: 3px solid var(--GreyMid);
+}
+.HeaderButtonText{
+    font-size: var(--Header-Inner-Content-Size);
+    color: var(--OrangeLight);
+    font-family: 'Teko';
+    line-height: 1;
+    float: left;
+    vertical-align: middle;
+}
+.SocialImage{
+    width: var(--Header-Inner-Content-Size);
+    height: var(--Header-Inner-Content-Size);
+}
+.HeaderButtonContainer{
+    display:flex;
+    justify-content:center;
+    overflow: hidden;
+}

@@ -1,0 +1,52 @@
+/*Imports (mostly google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+
+/*Vars*/
+:root{
+    --Dark: #305254;
+    --Light: #C7EAEC;
+    --GreyDark: #262c36;
+    --GreyMid:#4c5159;
+    --GreyLight:#9298a1;
+    --Orange:#ff8657;
+    --OrangeLight:#ffa785;
+    --OrangeDark:#d46a00;
+}
+/*Main Page Style*/
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--GreyDark);
+}
+/*text Classes*/
+.Header{
+    color: var(--Orange);
+    font-family: 'Teko';
+    margin-left: 10px;
+}
+.Paragraph{
+    color: var(--OrangeLight);
+    font-family: 'Teko';
+    font-size: 15px;
+    background: none;
+}
+.Link{
+    color: var(--OrangeLight);
+    background: none;
+    font-family: 'Teko';
+    font-size: 15px;
+}
+.Link:visited{
+    color: var(--OrangeDark);
+    background: none;
+}
+/*Div Classes*/
+.ContentBar{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 90%;
+    height: max-content;
+    padding: 10px;
+    background-color: var(--GreyMid);
+}
