@@ -1,12 +1,12 @@
 // adds a header to the document in question automatically
 let Pages = [
-    {P:"/Index.html",N:"Home"},
-    {P:"/Pages/MyWork/MyWork.html",N:"My Work"},
-    {P:"/Pages/WhoAmI/WhoAmI.html",N:"About Me"},
-    {P:"/Pages/Contact/Contact.html",N:"Contact"},
+    {P:"Index.html",N:"Home"},
+    {P:"Pages/MyWork/MyWork.html",N:"My Work"},
+    {P:"Pages/WhoAmI/WhoAmI.html",N:"About Me"},
+    {P:"Pages/Contact/Contact.html",N:"Contact"},
 ];
 let Socials = [
-    {S:`https://github.com/Lubba-64`,N:"Github",IMG:"/Images/github.png"}
+    {S:`https://github.com/Lubba-64`,N:"Github",IMG:"Images/github.png"}
 ]
 function AddHeader(ID){
     var addto = document.getElementById(ID);
