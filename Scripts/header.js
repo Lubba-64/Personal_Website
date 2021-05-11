@@ -1,6 +1,6 @@
 // adds a header to the document in question automatically
 let Pages = [
-    {P:"Index.html",N:"Home"},
+    {P:"index.html",N:"Home"},
     {P:"MyWork.html",N:"My Work"},
     {P:"WhoAmI.html",N:"About Me"},
     {P:"Contact.html",N:"Contact"},
