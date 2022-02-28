@@ -1,3 +1,5 @@
 # Personal_Website
- my personal website      
-hosted here: https://lubba-64.github.io/Personal_Website/
+This was the first version of my personal website.  
+  
+I made a better, more robust version in react here:  
+https://lubba64.com/
